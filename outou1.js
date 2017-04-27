@@ -2,7 +2,7 @@ $(function () {
   $('.more-loading').hide();
   Loading.show();//ローダー表示
 
-  var api = new NarikiriAPI('maxmurai');//api呼び出し
+  var api = new API('');//api呼び出し
 
   //ログイン中ユーザーID
   var login_userid;
